@@ -32,5 +32,5 @@ with open('Emotions.txt','r') as file:
         if word in final_words:
             Emotions.append(emotion)
 print(Emotions)
-W=Counter(Emotions)
-print(W)
+L=Counter(Emotions)
+print(L)
